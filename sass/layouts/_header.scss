@@ -1,0 +1,19 @@
+.header-nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  background-color: $white;
+  border-bottom: 1px solid #ececec;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.container__nav {
+  display: flex;
+  align-items: center;
+
+  background-color: $white;
+}

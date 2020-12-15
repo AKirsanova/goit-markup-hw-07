@@ -1,0 +1,40 @@
+/* Team list*/
+
+/*Bg Team list*/
+.section-team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+
+  background-color: $grey-bg;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+
+  .item {
+    background-color: $white;
+    padding-bottom: 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    color: $black;
+  }
+
+  &__position {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.19;
+  }
+}

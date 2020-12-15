@@ -1,0 +1,24 @@
+/*contacts*/
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    @include fonts(14px, 1.14, 0.02em);
+  }
+
+  .icon {
+    margin-right: 10px;
+    fill: currentColor;
+    align-items: center;
+  }
+}
