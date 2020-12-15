@@ -7,66 +7,64 @@
 .details-list {
   display: flex;
   flex-wrap: wrap;
-}
 
-.details-list-title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  text-align: left;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  &-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  
+    color: $black;
+  }
 
-  color: $black;
-}
+  &-descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    width: 270px;
+    text-align: left;
+  }
 
-.details-list-descr {
-  margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  width: 270px;
-  text-align: left;
-}
+  & .item {
+    width: 270px;
+    margin-right: 30px;
 
-.details-list .item {
-  width: 270px;
-  margin-right: 30px;
-}
+    &:last-child {
+      margin-right: 0px;
+    }
 
-.details-list .item:last-child {
-  margin-right: 0px;
-}
+    &::before {
+      display: flex;
+      content: '';
+      width: 270px;
+      height: 120px;
+    
+      margin-bottom: 30px;
+    
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: $grey-bg;
+    }
 
-.details-list .item::before {
-  display: flex;
-  content: '';
-  width: 270px;
-  height: 120px;
+    &:nth-child(1)::before {
+      background-image: url(../../img/icons-1-page/antenna.svg)
+    }
+    &:nth-child(2)::before {
+      background-image: url(../../img/icons-1-page/clock.svg);
+    }
+      
+    &:nth-child(3)::before {
+      background-image: url(../../img/icons-1-page/diagram.svg);
+    }
+      
+    &:nth-child(4)::before {
+      background-image: url(../../img/icons-1-page/astronaut.svg);
+    }
+  }
+  }
 
-  margin-bottom: 30px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: $grey-bg;
-}
-
-/*
-.details-list .item:nth-child(1)::before {
-  background-image: url(../img/icons-1-page/antenna\ 1.svg);
-}
-
-.details-list .item:nth-child(2)::before {
-  background-image: url(../img/icons-1-page/clock\ 1.svg);
-}
-
-.details-list .item:nth-child(3)::before {
-  background-image: url(../img/icons-1-page/diagram\ 1.svg);
-}
-
-.details-list .item:nth-child(4)::before {
-  background-image: url(../img/icons-1-page/astronaut\ 1.svg);
-}
-*/
