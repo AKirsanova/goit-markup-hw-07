@@ -523,19 +523,19 @@ textarea:hover, textarea:focus {
 }
 
 .details-list .item:nth-child(1)::before {
-  background-image: url(../../img/icons-1-page/antenna.svg);
+  background-image: url(../img/icons-1-page/antenna.svg);
 }
 
 .details-list .item:nth-child(2)::before {
-  background-image: url(../../img/icons-1-page/clock.svg);
+  background-image: url(../img/icons-1-page/clock.svg);
 }
 
 .details-list .item:nth-child(3)::before {
-  background-image: url(../../img/icons-1-page/diagram.svg);
+  background-image: url(../img/icons-1-page/diagram.svg);
 }
 
 .details-list .item:nth-child(4)::before {
-  background-image: url(../../img/icons-1-page/astronaut.svg);
+  background-image: url(../img/icons-1-page/astronaut.svg);
 }
 
 /* Team list*/
